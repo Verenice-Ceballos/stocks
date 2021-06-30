@@ -27,7 +27,7 @@ add(stock: string) {
 
 // Invoca a un servicio HttpClient para cargar los valores
 // de las acciones de un API
-load(symbols) {
+load(symbols: any[]) {
   if (!symbols) {
     symbols = ['AAPL'];
   }
