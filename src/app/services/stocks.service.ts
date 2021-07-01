@@ -13,6 +13,7 @@ export interface StockInterface {symbol: string;lastTradePriceOnly: number;chang
 //Define la clase y la exporta
 
 export class StocksService {
+[x: string]: any;
 // Método constructor para inyectar el servicio HttpClient
 // en la propiedad de la clase http
 constructor(private http: HttpClient) { }
